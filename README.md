@@ -33,6 +33,7 @@ Navigation:
 - [Social SDKs](#social-sdks)
 - [API Extensions & Helper](#api-extensions--helper)
 - [Design Patterns](#design-patterns)
+- [Utilities](#utilities)
 - [Other](#other)
 
 
@@ -41,6 +42,8 @@ Navigation:
 * [UnityOctree](https://github.com/Nition/UnityOctree) - octrees
 * [In-Game Replay System](https://github.com/FeNo/InGameReplay) - record and replay transforms
 * [Unity Scene Query](https://github.com/Real-Serious-Games/Unity-Scene-Query) - library to traverse and query the Unity scene to find particular objects
+* [UnityTools](https://github.com/CaptainHillman/UnityTools) - Runtime transformation gizmos
+* [Unity3DRuntimeTransformGizmo](https://github.com/HiddenMonk/Unity3DRuntimeTransformGizmo) - Another runtime transform gizmo
 
 ## Movement & Animation
 * [List View Framework](https://bitbucket.org/Unity-Technologies/list-view-framework) - create dynamic, scrollable lists
@@ -66,11 +69,13 @@ Navigation:
 * [Astar for Unity](https://github.com/sharpaccent/Astar-for-Unity) - A* pathfinding 
 * [A* Pathfinding Project](http://arongranberg.com/astar/) - A* pathfinding
 * [UnitySteer](https://github.com/ricardojmendez/UnitySteer) - steering, obstacle avoidance and path following behaviors
+* [SimpleTraffic](https://github.com/Kink3d/SimpleTraffic) - A simple traffic simulation using Nav Mesh. 
 
 ## Physics
 * [Mario Galaxy Gravity for Unity](https://gist.github.com/phosphoer/a283cdbeca5d2160d5eed318d0362826) - mario galaxy gravity
 * [Ocean Community Next Gen](https://github.com/eliasts/Ocean_Community_Next_Gen) - water physics/shader
 * [Voxel GPU Physics](https://github.com/jknightdoeswork/gpu-physics-unity) - GPU accelerated voxel physics
+* [Interactive Erosion](https://github.com/Scrawk/Interactive-Erosion) - Runtime fluid erosion for terrain 
 
 ## Particles
 * [KvantSpray](https://github.com/keijiro/KvantSpray) - gpu accelerated particles
@@ -92,6 +97,8 @@ Navigation:
 * [TextMesh Pro](https://www.assetstore.unity3d.com/en/#!/content/17662) - generate text with custom styling
 * [meshcombinewizard](https://bitbucket.org/sirgru/meshcombinewizard) - combines all meshes on the chosen gameObject and its children that share the same material
 * [RoadArchitect](https://github.com/MicroGSD/RoadArchitect) - road system creator featuring dynamic intersections, bridges, etc.
+* [DrawLine](https://github.com/geniikw/drawLine) - procedural line mesh tool.
+* [Deform](https://github.com/keenanwoodall/Deform) - A framework for deforming meshes in the editor and at runtime in Unity.
 
 ## Materials & Shading
 * [Projects by RM](https://www.assetstore.unity3d.com/en/#!/content/21648) - wet surface & skin shader
@@ -106,6 +113,8 @@ Navigation:
 * [Lux Shader Framework](https://github.com/larsbertram69/Lux-2.02-Personal) - Lux 2.02 pbr Shader Framework
 * [Unity Wireframe Shaders](https://github.com/Chaser324/unity-wireframe) - general purpose wireframe shaders
 * [Hologram Shader](https://github.com/andydbc/HologramShader) - simple hologram shader
+* [Kamakura Shaders](https://github.com/kayac/kamakura-shaders/) - a collection of shaders and components focusing on Non-Photorealistic Rendering
+* [Facepunch.Highlight](https://github.com/Facepunch/Facepunch.Highlight) - Mesh outline effect
 
 ## 2D
 * [UnitySVG](https://github.com/MrJoy/UnitySVG) - svg renderer
@@ -117,9 +126,12 @@ Navigation:
 * [PolyMesh](https://github.com/UnityPatterns/PolyMesh) - 2d shape editor
 * [Unity Tilemap](https://github.com/toinfiniityandbeyond/unity-tilemap) - 2D tilemap editor
 * [2D Extras](https://github.com/Unity-Technologies/2d-extras) - reusable 2d scripts (tilemaps, etc.)
+* [Vector Graphics Samples](https://github.com/Unity-Technologies/vector-graphics-samples) - samples of the Vector Graphics features to be used with Unity 2018.1 and newe
 
 ## Networking
 * [UNet Authoritative Networking](https://github.com/atrakeur/unity-unet-authoritative-networking) - authoritative networking implementation
+* [MLAPI](https://github.com/MidLevel/MLAPI) An alternative to Unity's UNET high level API, allows for separate server/client projects and more
+* [Barebones Master Server](https://github.com/alvyxaz/barebones-masterserver) - Host your own custom master server setup, avoid CCU fees 
 
 ## VR
 * [SteamVR](https://github.com/ValveSoftware/steamvr_unity_plugin) - VR SDK
@@ -148,6 +160,7 @@ Navigation:
 * [UI Extensions](https://bitbucket.org/UnityUIExtensions/unity-ui-extensions) - various NGUI extensions/helper/scripts
 * [NGUI Extensions](https://github.com/kimsama/Unity-NGUIExtension) - a few NGUI extensions
 * [Webview CSharp](https://github.com/kimsama/unity3d-webview-csharp) - render websites
+* [Typogenic](https://github.com/Chman/Typogenic) - an easy to use, fast and high-quality 3D text renderer
 
 ## Post-Processing & Rendering
 * [kode80SSR](https://github.com/kode80/kode80SSR) - screen-space reflections 
@@ -187,6 +200,7 @@ Navigation:
 * [DeLightingTool](https://github.com/Unity-Technologies/DeLightingTool) - tool to remove lighting information from textures in a photogrammetry asset pipeline
 * [unity-lut-generator](https://github.com/mattatz/unity-lut-generator) - LookUpTable generator for Unity
 * [SEGI](https://github.com/sonicether/SEGI) - Sonic Ether's voxel-based global illumination system
+* [Aura](https://github.com/raphael-ernaelsten/Aura) - a local simulation of the light scattering into the surrounding medium
 
 ## Mobile
 * [Toast](https://gist.github.com/TarasOsiris/dec42cf3ecca6c854182f385e38dbf57) - android toast notifications
@@ -200,12 +214,13 @@ Navigation:
 ## Debug
 * [uREPL](https://github.com/hecomi/uREPL) - runtime evaluation of c# expressions
 * [UberLogger](https://github.com/bbbscarter/UberLogger) - advanced logging API, improved editor console & ingame console
+* [Unity File Debug](https://github.com/Sacred-Seed-Studio/Unity-File-Debug) - enhanced Debug.Log with file export and web viewer
+* [Immediate Window](https://docs.unity3d.com/Packages/com.unity.immediate-window@latest/index.html) -- Type code and get immediate feedback with object inspection like chrome console debugger.
 
 ## Editor
 ### Tools
 * [REX Diagnostics](https://thorgeirk11.github.io/REX-Diagnostics/) - runtime evaluation of c# expressions 
 * [Better Defines](https://github.com/TarasOsiris/Better-Defines) - platform dependent preprocessor directive manager
-* [Unity File Debug](https://github.com/Sacred-Seed-Studio/Unity-File-Debug) - enhanced logging 
 * [MissingReferencesUnity](https://github.com/liortal53/MissingReferencesUnity) - find missing references
 * [Unity Resource Checker](https://github.com/handcircus/Unity-Resource-Checker) - resource analyzer
 * [Compile Time Tracker](https://github.com/DarrenTsung/compile-time-tracker) - compile time tracker
@@ -221,6 +236,7 @@ Navigation:
 * [Piviot Transform Helper](https://twitter.com/talecrafter/status/780812894502084609) - adds piviot creation shortcuts to the context menu
 * [ScriptExecutionOrder Attribute](https://gist.github.com/Skybladev2/d0d029716b1651cc1947) - attribute to specify execution order
 * [Simple Editor Shortcuts Tools Collection](https://bitbucket.org/sirgru/simple-editor-shortcuts-tools-collection) - small collection of simple tools to help in scene editing workflows
+* [Mulligan Renamer](https://github.com/redbluegames/unity-mulligan-renamer) - bulk renaming tool for game objects and assets
 
 ### Editors
 * [Brainiac](https://github.com/daemon3000/Brainiac) - behaviour tree & (behaviour-)node-based visual editor
@@ -261,6 +277,7 @@ Navigation:
 * [SQLite4Unity3d](https://github.com/codecoding/SQLite4Unity3d) - sql lite
 * [UnityHTTP](https://github.com/andyburke/UnityHTTP) - http library
 * [Unity QuickSheet](https://github.com/kimsama/Unity-QuickSheet) - import data from google/excel sheets
+* [Odin Unity Serializer](https://github.com/TeamSirenix/odin-serializer) - Arguably the best serializer for Unity out there
 
 ## Social SDKs
 * [Google Analytics Plugin](https://github.com/googleanalytics/google-analytics-plugin-for-unity) - Google Analytics
@@ -299,6 +316,10 @@ Navigation:
 * [UniRx](https://github.com/neuecc/UniRx) - unity reactive extensions implementation
 * [Ring_Buffer](https://bitbucket.org/sirgru/ring_buffer) - simple implementation of a RingBuffer<T>
 
+## Utilities
+* [demilib](https://github.com/Demigiant/demilib) - various utilities and tools for Unity
+* [Excessives](https://github.com/SirHall/Excessives) - General purpose C# and Unity3D utility scripts
+
 ## Other
 * [Unity Right Click](https://gist.github.com/adamtuliper/48a6e2ce3d9b5e72be36) - windows context menu extension: 'open with unity'
 * [No Hot-Reload](https://capeguy.co.uk/2015/06/no-more-unity-hot-reload/) - prevent unity hot-reloads
@@ -312,9 +333,11 @@ Navigation:
 * [Asset Store Batch Mode](https://github.com/thinksquirrel/asset-store-batch-mode) - API for uploading Unity Asset Store packages
 * [Unity Size Explorer](https://github.com/aschearer/unitysizeexplorer) - analyzes the disk space usage of your build
 * [Better Unity Script Templates](https://github.com/BrokenVector/BetterUnityScriptTemplates) - improved Script templates
-* [UnityDecompiled](https://github.com/MattRix/UnityDecompiled) - decompiled Unity API code
+* [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) - Unity C# reference source code
 * [Shader Calibration Charts](https://oc.unity3d.com/index.php/s/dfc9aa1491ff905f589408aa136eab23) - Unity StandardShader calibration charts
 * [Save Game Free](https://github.com/BayatGames/SaveGameFree) - cross platform, encrypted, online-stored saves
-* [demilib](https://github.com/Demigiant/demilib) - various utilities and tools for Unity
+* [UCompile](https://github.com/SoapCode/UCompile) - Runtime compilation and execution of CSharp code
+* [UDBase](https://github.com/KonH/UDBase) - module-based game template for Unity
+* [Hull-Delaunay-Voronoi](https://github.com/Scrawk/Hull-Delaunay-Voronoi) - Hull, Delaunay and Voronoi algorithms in Unity
 
 [![Analytics](https://ga-beacon.appspot.com/UA-63472612-14/readme)](https://github.com/igrigorik/ga-beacon)
